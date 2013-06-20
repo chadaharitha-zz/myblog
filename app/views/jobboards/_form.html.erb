@@ -1,0 +1,13 @@
+
+<% @results["ResponseJobSearch"]["Results"]["JobSearchResult"].each do |result| %>
+    <div class="resultgroup">
+      <div class="searchresult even firstjobresult">
+        <div class="resultinner">
+          <p>
+            Description:<%= result["JobTitle"] %>    </br>
+          </br>
+          </br>
+        </div>
+      </div>
+    </div>
+<% end %>

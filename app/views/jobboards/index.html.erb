@@ -1,0 +1,21 @@
+
+
+
+<div class="searchresults">
+  <% unless @results.blank? %>
+      
+          <div class="JobHeader">
+            Job Search Results
+          </div>
+
+          <%= render :partial => "jobboards/form" %>
+          <div id="infinite-scroll"></div>
+
+      
+  <% end %>
+</div>
+
+
+
+
+
